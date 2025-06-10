@@ -11,7 +11,7 @@ A plugin that adds visual dividers between files and folders in the file explore
 
 ### Managing Dividers
 
-- Open Settings 👉 Plugin Options 👉 Folder Divider
+- Open Settings 👉 Community Plugins 👉 Files Divider
 - View all current dividers
 - Remove unwanted dividers
 - Customize divider appearance (color, thickness)
