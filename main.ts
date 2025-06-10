@@ -159,13 +159,10 @@ export default class FilesDividersPlugin extends Plugin {
                 }
             })
         );
-
-        console.log('Files Dividers plugin loaded');
     }
 
     onunload() {
         this.removeDividers();
-        console.log('Files Dividers plugin unloaded');
     }
 
     async loadSettings() {
@@ -285,8 +282,6 @@ export default class FilesDividersPlugin extends Plugin {
 
         // --- Add classes to file and folder elements ---
         this.addDividerClasses();
-
-        console.log('Applied files dividers:', this.settings.dividers.length);
     }
 
     addDividerClasses() {
@@ -315,7 +310,6 @@ export default class FilesDividersPlugin extends Plugin {
                             folder.classList.add(`nav-folder-divider-${divider.position}`);
                             folder.setAttribute('data-item', divider.itemName);
                             folder.setAttribute('data-type', 'folder');
-                            console.log(`Added divider class to folder: ${folderName} (${divider.position})`);
                         }
                     }
                 });
