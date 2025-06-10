@@ -1,7 +1,7 @@
 {
 	"id": "files-divider",
 	"name": "Files Divider",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Add dividers between your files and folders to organize your notes better.",
 	"author": "rqinix",

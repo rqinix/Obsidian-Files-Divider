@@ -1,6 +1,6 @@
 {
 	"name": "files-divider",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "An Obsidian plugin that adds dividers to files and folders.",
 	"main": "main.js",
 	"scripts": {
